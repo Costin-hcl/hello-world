@@ -1,0 +1,36 @@
+.tags span{
+    background-color: gray;
+    color: white;
+    font-size: small;
+    font-family: monospace;
+    padding: 2px;
+}
+
+.title{
+    font-size: xx-large;
+}
+
+.description{
+    font-size: small;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.survey{
+    border: 1px solid black;
+    min-height: 200px;
+}
+
+.surveyQuestion .text{
+    width: 70%;
+    position: relative;
+    float: left;
+}
+
+.surveyQuestion .measurement{
+    width: 20%;
+    position: relative;
+    float: left;
+    padding: 2px;
+    background-color: cornsilk;
+}
